@@ -1,0 +1,88 @@
+
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background: url("images/bg-intro-desktop.png") center no-repeat;
+    color: #fff;
+}
+.container{
+    margin: 20px;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: #f53c43af ;
+    
+}
+.content{
+    max-width: 50%;
+}
+.content h2{
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+.content p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.form-container{
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.form-container input{
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 100%;
+}
+.content h3{
+    font-size: 1.4rem;
+    line-height: 1.5;
+    background-color: #673ab7;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+.form-container button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    align-items: center;
+}
+.form-container input:hover{border: 1.5px solid black;}
+.form-container button:hover{background-color: #00a047;}
+span{color: red;}
+span:hover{color: #f53c43;}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@media(max-width:768px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .content{
+        max-width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .form-container{
+        max-width: 90%;
+    }
+}
